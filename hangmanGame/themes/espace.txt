@@ -1,0 +1,6 @@
+EPOQUE: Point déterminé dans le temps, marquant le début d'une ère.
+LUSTRE: Période de temps longue et indéterminée.
+SIECLE: Période de cent années environ, considérée comme une unité historique.
+ETOILE: Astre producteur et émetteur d'énergie.
+ATMOSPHERE: Couche gazeuse qui entoure le globe terrestre.
+GALAXIE: Vaste amas d'étoiles, l'une des structures essentielles de l'Univers.

@@ -1,0 +1,7 @@
+LAPIN: Cet animal aime les carottes et on le mange en civet
+FURET: Cet animal peut être sauvage ou de compagnie (original), une cantine pour enfant chante sa course.
+OKAPI: Animal dont l'apparence fait penser à la fois à la girafe et au zèbre.
+POULE: Oiseau coureur ne sachant voler que sur de très courtes distances; Présent dans la basse-cour.
+SINGE: Animal incarnant l'adresse, l'agilité, la ruse, la souplesse.
+TIGRE: C'est le plus grand et le plus puissant de tous les félins.
+ZEBRE: Membre de la famille des équidés; connu aussi sous le nom de cheval tigre
