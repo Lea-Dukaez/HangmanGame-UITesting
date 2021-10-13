@@ -15,6 +15,9 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.accessibilityLabel = "ListOfThemes"
+        tableView.isAccessibilityElement = true
+        
         title = "Jeu du pendu"
     }
 
@@ -33,6 +36,9 @@ class HomeTableViewController: UITableViewController {
         content.text = themes[indexPath.row]
         cell.contentConfiguration = content
         
+        cell.isAccessibilityElement = true
+        cell.accessibilityLabel = "themeText_\(indexPath.row)"
+        cell.accessibilityIdentifier = "themeCell_\(indexPath.row)"
         return cell
     }
     

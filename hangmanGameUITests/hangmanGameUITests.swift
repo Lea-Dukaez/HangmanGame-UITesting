@@ -22,14 +22,26 @@ class hangmanGameUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func test_Existing_tableView_with_2_rows() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
-        app.launchArguments = ["enable-testing"]
         app.launch()
         
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let table = app.tables["ListOfThemes"]
+        XCTAssertTrue(table.exists)
+        XCTAssert(table.cells.count == 2)
+
+        let cell0 = table.cells["themeCell_0"]
+        let cell1 = table.cells["themeCell_1"]
+        
+        XCTAssertTrue(cell0.exists)
+        XCTAssertTrue(cell1.exists)
+        
+        XCTAssertTrue(cell0.staticTexts.element.label == "espace")
+        XCTAssertTrue(cell1.staticTexts.element.label == "animaux")
+        
+        cell0.tap()
+        
     }
 
     func testLaunchPerformance() throws {
